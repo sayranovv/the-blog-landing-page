@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #703412;
+}
+
+.navbar{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    background-color: #FEFBF1;
+    padding: 10px 20px;
+    height: 60px;
+    justify-content: center;
+}
+
+.navbar .ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .ul li {
+    margin: 0 20px;
+}
+
+.navbar .ul li a {
+    color: #703412;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 72px;
+    background-color: #FEFBF1;
+}
+
+header.container {
+    padding-top: 120px;
+    padding-bottom: 123px;
+}
+
+.header-extra-text {
+    font-size: 11px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.header-text {
+    margin-top: 25px;
+    font-size: 80px;
+    font-weight: 400;
+    max-width: 848px;
+}
+
+.section-text {
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 570px;
+    padding-bottom: 194px;
+}
+
+.card {
+    width: 312px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 60px;
+    padding-bottom: 122px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card-category {
+    margin-top: 11px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+footer.container {
+    background-color: #084935;
+    color: #fff;
+    padding-top: 120px;
+    position: relative;
+    overflow: visible;
+}
+
+.contact {
+    /*margin-top: 120px;*/
+}
+
+.contact-title {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.contact-text {
+    margin-top: 24px;
+    max-width: 712px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.footer-links {
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links-list {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-link {
+    margin-top: 3px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.72)
+}
+
+.hr {
+    position: absolute;
+    left: 50%;
+    top: 89%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.16);
+    width: 120%;
+    text-align: center;
+    height: 1px;
+}
+
+.copyright {
+    margin-top: 100px;
+    padding-bottom: 26px;
+}
